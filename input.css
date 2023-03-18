@@ -1,0 +1,126 @@
+:root{
+    --small_weight:400;
+    --medium_weight:500;
+    --large_weight:700;
+
+    --font_family: 'League Spartan', sans-serif;
+}
+body{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    height:100vh;
+    font-family: var(--font_family);
+}.main-1{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+}
+.userlover{
+    font-size:15px;
+    color: hsl(303, 10%, 53%);
+    width:500px;
+}
+.ten{
+    font-size: 40px;
+    font-weight:var(--large_weight);
+    color: hsl(300, 43%, 22%);
+    width:300px;
+    margin-bottom:25px;
+}
+.we_only{
+    width:350px;
+    line-height:20px;
+}
+.rating{
+    color:hsl(300, 43%, 22%);
+    font-weight:var(--large_weight);
+}
+.review_one{
+    display:flex;
+    gap:10px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:10px;
+    background-color:hsl(333, 69%, 86%);
+    padding:10px 80px 10px 20px;
+    border-radius:5px;
+    margin-left:-80px;
+    margin-right:80px;
+}
+.review_two{
+    display:flex;
+    gap:10px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:10px;
+    background-color:hsl(333, 69%, 86%);
+    padding:10px 80px 10px 20px;
+    border-radius:5px;
+    margin-left:-40px;
+    margin-right:40px;
+}
+.review_three{
+    display:flex;
+    gap:10px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:20px;
+    background-color:hsl(333, 69%, 86%);
+    padding:10px 80px 10px 20px;
+    border-radius:5px;
+}
+.main-2{
+    display:flex;
+    margin-top:40px;
+    gap:20px;
+    justify-content: space-between;
+}
+.colton_div{
+    background-color:hsl(300, 43%, 22%);
+    color:white;
+    padding:20px;
+    border-radius:10px;
+}
+.colton_profile{
+    display:flex;
+    align-items:center;
+    gap:20px;
+    margin-bottom: 20px;
+}
+.colton_profile img{
+    height:40px;
+    width:40px;
+    border-radius:50%;
+}
+.colton_smith{
+    font-weight:var(--medium_weight);
+    line-height:20px;
+}
+.colton_smith span{
+    font-weight: var(--small_weight);
+}
+.colton_suggestion{
+    width:270px;
+    line-height:23px;
+}
+.irene_div{
+    background-color:hsl(300, 43%, 22%);
+    color:white;
+    padding:20px;
+    border-radius:10px;
+    margin-bottom:-20px;
+    margin-top:20px;
+}
+.anne_div{
+    background-color:hsl(300, 43%, 22%);
+    color:white;
+    padding:20px;
+    border-radius:10px;
+    margin-bottom:-40px;
+    margin-top:40px;
+}
+
+.colton_smith span{
+    color:hsl(333, 80%, 67%);
+}
