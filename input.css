@@ -8,12 +8,15 @@
 .supreme{
     margin:10px;
     padding:10px;
+    display:flex;
+    flex-direction:column
 }
 body{
     display:flex;
     align-items:center;
     justify-content: center;
     min-height:100vh;
+    overflow-x:hidden;
     font-family: var(--font_family);
 }
 .main-1{
@@ -24,7 +27,7 @@ body{
 .userlover{
     font-size:15px;
     color: hsl(303, 10%, 53%);
-    width:500px;
+    width:100%;
 }
 .ten{
     font-size: 40px;
@@ -40,6 +43,7 @@ body{
 .rating{
     color:hsl(300, 43%, 22%);
     font-weight:var(--large_weight);
+    width:100%;
 }
 .review_one{
     display:flex;
@@ -144,11 +148,17 @@ body{
     }
     .review_one{
         margin-left:0;
+        padding:10px;
+        margin-right:0;
     }
     .review_two{
         margin-left:0;
+        padding:10px;
+        margin-right:0;
     }
     .review_three{
         margin-left:0;
+        padding:10px;
+        margin-right:0;
     }
 }
