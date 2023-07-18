@@ -5,13 +5,18 @@
 
     --font_family: 'League Spartan', sans-serif;
 }
+.supreme{
+    margin:10px;
+    padding:10px;
+}
 body{
     display:flex;
     align-items:center;
     justify-content: center;
-    height:100vh;
+    min-height:100vh;
     font-family: var(--font_family);
-}.main-1{
+}
+.main-1{
     display:flex;
     align-items:center;
     justify-content: space-between;
@@ -29,7 +34,7 @@ body{
     margin-bottom:25px;
 }
 .we_only{
-    width:350px;
+    width:70%;
     line-height:20px;
 }
 .rating{
@@ -47,6 +52,7 @@ body{
     border-radius:5px;
     margin-left:-80px;
     margin-right:80px;
+    width:fit-content;
 }
 .review_two{
     display:flex;
@@ -59,10 +65,12 @@ body{
     border-radius:5px;
     margin-left:-40px;
     margin-right:40px;
+    width:fit-content;
 }
 .review_three{
     display:flex;
     gap:10px;
+    width:fit-content;
     align-items: center;
     justify-content: center;
     margin-bottom:20px;
@@ -123,4 +131,24 @@ body{
 
 .colton_smith span{
     color:hsl(333, 80%, 67%);
+}
+@media screen and (max-width:760px) {
+    body{
+        display:block;
+    }
+    .main-1{
+        flex-direction:column;
+    }
+    .main-2{
+        flex-direction:column;
+    }
+    .review_one{
+        margin-left:0;
+    }
+    .review_two{
+        margin-left:0;
+    }
+    .review_three{
+        margin-left:0;
+    }
 }
