@@ -9,7 +9,8 @@
     margin:10px;
     padding:10px;
     display:flex;
-    flex-direction:column
+    flex-direction:column;
+    max-width:1000px;
 }
 body{
     display:flex;
@@ -113,7 +114,7 @@ body{
     font-weight: var(--small_weight);
 }
 .colton_suggestion{
-    width:270px;
+    width:100%;
     line-height:23px;
 }
 .irene_div{
@@ -160,5 +161,12 @@ body{
         margin-left:0;
         padding:10px;
         margin-right:0;
+    }
+    .userlover{
+        width:95%;
+    }
+    .rating{
+        margin-top:20px;
+        padding-left:20px;
     }
 }
